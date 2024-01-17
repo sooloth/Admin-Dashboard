@@ -1,0 +1,50 @@
+.widgetLg {
+  flex: 2;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.44);
+  padding: 20px;
+}
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+.widgetLgTable {
+  width: 100%;
+  border-spacing: 10px;
+}
+.widgetLgTh {
+  text-align: left;
+}
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.widgetLgDate,
+.widgetLgAmount {
+  font-weight: 100;
+}
+.widgetLgButton {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+.widgetLgButton.Approved {
+  background-color: #e5faf2;
+  color: rgb(2, 36, 36);
+}
+.widgetLgButton.Declined {
+  background-color: #e5faf1;
+  color: crimson;
+}
+.widgetLgButton.Pending {
+  background-color: #e5fafe;
+  color: rgb(35, 95, 74);
+}
